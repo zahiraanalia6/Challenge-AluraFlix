@@ -1,0 +1,183 @@
+/* frontend/public/css/styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #111;
+    padding: 10px 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #e50914;
+  }
+  
+  .main-content {
+    margin-top: 80px;
+    padding-top: 40px;
+  }
+  
+  .hero {
+    background-image: url('/images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  .featured {
+    padding: 40px 0;
+  }
+  
+  .featured h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .series-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .series-card {
+    flex: 0 0 200px;
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .series-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .series-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .series-card h3 {
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .movies {
+    padding: 40px 0;
+  }
+  
+  .movies h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .movies-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .movie-card {
+    flex: 0 0 200px;
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .movie-card h3 {
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #111;
+    color: #999;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  

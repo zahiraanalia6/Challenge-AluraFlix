@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "genre": "Drama",
+      "posterUrl": "https://example.com/poster1.jpg",
+      "videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "genre": "Crime, Drama",
+      "posterUrl": "https://example.com/poster2.jpg",
+      "videoUrl": "https://www.youtube.com/embed/sY1S34973zA"
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "genre": "Action, Crime, Drama",
+      "posterUrl": "https://example.com/poster3.jpg",
+      "videoUrl": "https://www.youtube.com/embed/EXeTwQWrcwY"
+    }
+  ]
+  
